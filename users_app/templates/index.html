@@ -6,6 +6,24 @@
     <title>Users</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <h1>All the Users</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email Address</th>
+            <th>Age</th>
+        </tr>
+    {% for user in users %}
+        <tr>
+            <td>{{ user.id }}</td>
+            <td>{{ user.first_name }} {{ user.last_name }}</td>
+            <td>{{ user.email_address }}</td>
+            <td>{{ user.age }}</td>
+        </tr>
+    {% endfor %}
+    </table>
+
+
 </body>
 </html>
