@@ -2,4 +2,4 @@ from django.shortcuts import render
 
 # Create your views here.
 def users(request):
-    print("Yay!")
+    return render(request, 'index.html')
