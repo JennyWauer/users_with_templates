@@ -22,3 +22,15 @@ th, td {
     border-right: 0.15em solid black;
     padding-left: 0.15em;
 }
+
+form {
+    margin: 0.5em auto;
+}
+
+form label, form input {
+    margin: 0.25em;
+}
+
+.button {
+    box-shadow: 0.15em 0.15em gray;
+}
